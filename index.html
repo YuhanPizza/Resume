@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Space+Mono&display=swap&family=Roboto"
+            rel="stylesheet"
+        />
+        <script src="https://kit.fontawesome.com/606cb4c69f.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="./style.css" />
+        <title>Resume</title>
+    </head>
+    <body>
+        <div class="profile">
+            <img class="profile-pic" src="./info/profile.jpg" alt="profile_picture" />
+            <h1>Lorenz Alvin Tubo</h1>
+            <h3>Full Stack Developer</h3>
+            <div class="buttons">
+                <div class="resume-download">
+                    <button id="resume_button" class="resume_button">
+                        <p>Resume</p>
+                        <a
+                            href="./info/Resume.pdf"
+                            download="Resume-2023"
+                            ><i class="fa-sharp fa-solid fa-circle-down fa-lg"></i
+                        ></a>
+                    </button>
+                </div>
+                <div class="contact-me">
+                    <button id="contact_button" class="contact_button">
+                        <p>About Me</p>
+                        <a href="#about-me"><i class="fa-solid fa-address-card"></i></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="about-me-card">
+            <div id="about-me" class="about-me">
+                <h1>Academic Honesty</h1>
+                    <i>I declare that my assessment is wholly my own work in accordance with Seneca
+                        Academic Policy. No part of this assessment has been copied manually or
+                        electronically from any other source (including web sites) except for the
+                        information supplied by the WEB222 instructors and / or made available in this
+                        assessment for my use. I also declare that no part of this assignment has been
+                        distributed to other students.</i>
+                <div class="date">
+                    <p>Date:&nbsp 02/12/2022</p>
+                </div>
+            </div>
+            <div class="basic-info">
+                <table>
+                    <h1>Basic Information</h1>
+                    <tr>
+                        <th><b>Age: </b></th>
+                        <th>&nbsp27</th>
+                    </tr>
+                    <tr>
+                        <th><b>Email: </b></th>
+                        <th>&nbsplorenzalvintubo@gmail.com</th>
+                    </tr>
+                    <tr>
+                        <th><b>Language: </b></th>
+                        <th>&nbspEnglish, Tagalog, Cebuano</th>
+                    </tr>
+                    <tr>
+                        <th><b>Course:</b></th>
+                        <th>&nbspWEB222-NEE</th>
+                    </tr>
+                    <tr>
+                        <th><b>Student ID: </b></th>
+                        <th>&nbsp109934224</th>
+                    </tr>
+                    <tr>
+                        <th><b>Instructor:</b></th>
+                        <th>&nbspProfessor. Blessing Ajiboye.</th>
+                    </tr>
+                </table>
+                <br />
+                <h3>About Me</h3>
+                <p>I like long walks on the beach, seldomly you will find me fighting for my life defending 
+                   my baloney sandwich from seagulls. Sometimes I like to donate pies to the less fortunate
+                   and hungry racoons. What can I say I'm a bit of an philanthropist.
+                </p>
+            </div>
+        </div>
+        <div class="edu">
+            <h1>EDUCATION</h1>
+            <div class="college">
+                <div class="date_type">
+                    <h4>2022-2023(expected)</h4>
+                    <h1>Diploma</h1>
+                </div>
+                <div class="edu_type">
+                    <h2>Diploma Computer Programming</h2>
+                    <h3>SENECA COLLEGE</h3>
+                    <p>Under the supervision of Prof. Blessing Ajiboye</p>
+                    <p>Honour's list award Summer 2022</p>
+                </div>
+            </div>
+            <div class="college">
+                <div class="date_type">
+                    <h4>2012-2016</h4>
+                    <h1>Bachelor of Arts and Sciences</h1>
+                </div>
+                <div class="edu_type">
+                    <h2>Mass-Communications </h2>
+                    <h3>Holy Name University</h3>
+                    <p>Under the supervision of Prof. Edel dela Cerna </p>
+                    <p>Mr.CAS 2016</p>
+                    <p>1st Runner-Up Mr.HNU 2015</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="skills">
+            <h1>SKILLS</h1>
+            <ul id="language-list"></ul>
+        </div>
+        <hr />
+        <div class="contact-card">
+            <h1>CONTACT ME</h1>
+            <form action="https://httpbin.org/post" onsubmit="post()" method="post">
+                <div>
+                    <label id="icon" for="name"><i class="fas fa-user"></i></label>
+                    <input type="text" name="name" id="name" placeholder="Name" required />
+                </div>
+                <div>
+                    <label id="icon" for="last-name"><i class="fas fa-user"></i></label>
+                    <input
+                        type="text"
+                        name="last-name"
+                        id="last-name"
+                        placeholder="Last name"
+                        required
+                    />
+                </div>
+                <div>
+                    <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                    <input type="text" name="email" id="email" placeholder="@gmail.com" required />
+                </div>
+
+                <div>
+                    <label id="icon" for="city"><i class="fas fa-address-card"></i></label>
+                    <input type="text" name="city" id="name" placeholder="City" required />
+                </div>
+                <div>
+                    <label id="icon" for="street"><i class="fa-sharp fa-solid fa-city"></i></label>
+                    <input
+                        type="text"
+                        name="street"
+                        id="street"
+                        placeholder="Street Address"
+                        required
+                    />
+                </div>
+                <div>
+                    <label id="icon" for="post_code"><i class="fa-solid fa-signs-post"></i></label>
+                    <input
+                        type="text"
+                        name="post_code"
+                        id="post-code"
+                        placeholder="Postal Code"
+                        pattern="^[A-Z][0-9][A-Z][ ][0-9][A-Z][0-9]$"
+                        required
+                    />
+                </div>
+                <div>
+                    <label id="icon" for="province"
+                        ><i class="fa-solid fa-landmark-flag"></i
+                    ></label>
+                    <input
+                        list="provinces"
+                        type="text"
+                        name="province"
+                        id="province"
+                        placeholder="Province"
+                        required
+                    />
+                    <datalist id="provinces"> </datalist>
+                </div>
+                <div id="radio" class="radio">
+                    <input
+                        onclick="hideContactType()"
+                        type="radio"
+                        id="contact_job_input"
+                        name="contact_type"
+                        value="HTML"
+                    />
+                    <label for="">Job</label><br />
+                    <input
+                        onclick="hideContact()"
+                        type="radio"
+                        id="contact_school_input"
+                        name="contact_type"
+                        value="HTML"
+                    />
+                      <label for="">School</label><br />
+                    <input
+                        type="radio"
+                        id="contact_job"
+                        name="contact_type"
+                        value="HTML"
+                        onclick="Contact()"
+                    />
+                      <label>Other</label><br />
+                </div>
+                <div>
+                    <textarea
+                        placeholder="Additional details...."
+                        id=""
+                        cols="30"
+                        rows="10"
+                        style="resize: none; border-radius: 4px"
+                        required
+                    ></textarea>
+                </div>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
