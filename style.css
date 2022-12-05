@@ -75,9 +75,11 @@ button p {
 .contact-me p{
     color: black;
 }
-.resume_button {
+.resume_button,
+.contact_button {
     background-color: rgb(243, 243, 243);
 }
+
 
 
 .contact-me button {
@@ -222,6 +224,8 @@ button p {
     .about-me,
     .basic-info {
         width: 80%;
+        justify-content: center;
+        align-items: center;
         margin: 5px;
     }
     .college{
