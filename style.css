@@ -50,8 +50,7 @@ button {
     border-radius: 50px;
 }
 .resume-download :hover {
-    background-color: #b50000;
-    color: white;
+    color: red;
 }
 
 .resume-download,
@@ -73,42 +72,34 @@ button p {
     justify-content: center;
     align-items: center;
 }
-
-.about-me,
-.basic-info,
+.about-me-card,
 .profile-pic,
 .contact-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
-.resume_button a i {
-    padding-top: 11px;
+.resume_button p,
+.contact-me p{
     color: black;
 }
 .resume_button {
     background-color: rgb(243, 243, 243);
 }
-.contact-me i {
-    color: white;
-}
-.resume_button a i,
-.contact-me button a i {
-    padding-top: 7px;
-    padding-left: 5px;
-    color: white;
-}
+
 
 .contact-me button {
     color: black;
 }
 .contact-me :hover {
-    background-color: #f40000;
-    color: white;
+    color: red;
 }
 .about-me-card {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 10px;
+    background-color:red;
+    border-radius: 10px;
 }
 .about-me-card h3 {
     text-align: justify;
@@ -116,11 +107,10 @@ button p {
 
 .basic-info,
 .about-me {
-    background-color: #ff0000;
     color: white;
-    padding: 20px;
-    width: 35%;
-    border-radius: 7px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
 }
 .basic-info table {
     width: 100%;
