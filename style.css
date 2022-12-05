@@ -8,12 +8,6 @@ body {
     margin: auto;
     background-color: black;
 }
-/* .skills ul li,
-.date_type,
-.edu_type {
-    box-shadow: rgba(251, 251, 251, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px,
-        rgba(247, 245, 245, 0.08) 0px 1px 0px inset;
-} */
 
 h1 {
     font-family: "Space Mono", monospace;
@@ -230,17 +224,16 @@ button p {
         width: 80%;
         margin: 5px;
     }
-    .higher_education,
-    .highschool {
+    .college{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .edu_left {
+    .date_type {
         margin-top: 20px;
         width: 80%;
     }
-    .edu_right {
+    .edu_type {
         margin-top: 1px;
     }
     #skills {
