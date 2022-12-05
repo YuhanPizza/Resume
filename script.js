@@ -1,4 +1,4 @@
-const lang = ["JavaScript", "C#", "HTML", "CSS", "C/C++", "C", "Python"];
+const lang = ["JavaScript", "C#", "HTML", "CSS", "C/C++", "Java", "Python"];
 const provinces = [
     "Ontario",
     "British Columbia",
