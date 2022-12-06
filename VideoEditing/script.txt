@@ -1,0 +1,34 @@
+Hi Hello my name is Lorenz Alvin Tubo, I am a CPP student enrolled in the course of WEB222
+and this is a reflection video on how I made my WebFinal Assessment Project. First of As I read 
+Instructions on what was required from the project I first saw the Profile and I quickly separated
+them in Divs that suit their locations. giving them separate Id's and/or classe's that suite my needs
+inorder for them to pass the required output. Secondly I Made links to the Resume and About me buttons
+to point to an action to download the resume or to reference to a id tagged "#about-me". I then
+filled in the necessary Information below on the about me and academic integrity. added my photo. etc
+I then created 7 more divs 1 for education 1 for each college and within each college 1 div for 
+date_type class and 1 div for edu_type class each date_type class also is a link to a reference
+of the website of the college i went to. the buttons represent the year I studied there.
+
+I created another div for skills and inside it would display my skills in a list with the id
+"language-list" and I used a js code for this creating a const lang array with all the skills 
+i have or want to have and in the run function i grab the elementbyid "language-list" 
+and then used the code for each lang element it creates an item of <li> tag and inserts the 
+lang array current index value to  that item and appends it to the language-list element, in turn
+dynamically loading it to the webpage. btw used the same code for the provinces the only difference 
+is it is an option. 
+
+For the Contact i created more div tags and just placed the regular expression for the pattern that
+is required. and made a js code for the radio buttons depending on which they are contacting me for.
+The submission button sends the info to an online dumpster but it will display the info you sent to
+that page with method post.
+
+For the background I used a JS script for interactive backgrounds I learned months before the code
+is too long to explain but basically it uses object oriented javascript principles to create
+objects inside of elementid "canvas1" also grabs a radius of the mouse and this will depend
+on your screensize. the class particles are created multiple number of times depending on the 
+screensize and stored in an array and its motion are randomly generated a math equation is used
+within the code so that it does not move outside of the screen.  Also created a connect function
+that would basically connect 2 particles with a line if they move close to each other. created an 
+animation loop to update their movement calling to draw them at this location etc. 
+I think I had a bit of fun outside the project parameters. But overall I think this course
+was very informative in forwarding my knowledge on javascript. 

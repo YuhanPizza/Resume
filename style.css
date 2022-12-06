@@ -8,7 +8,6 @@ body {
     margin: auto;
     background-color: black;
 }
-
 h1 {
     font-family: "Space Mono", monospace;
 }
@@ -66,6 +65,15 @@ button p {
     justify-content: center;
     align-items: center;
 }
+button{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.date a p{
+    color: black;
+}
 .about-me-card,
 .profile-pic,
 .contact-card {
@@ -84,6 +92,9 @@ button p {
 
 .contact-me button {
     color: black;
+}
+.reflect :hover{
+    color:red;
 }
 .contact-me :hover {
     color: red;
